@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Survey Form</title>
-    <link href="Styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <div class="main">
         <form action="Index.html" id="survey-form">
-            <label for="name" id="name-label"> Name<input placeholder="Enter your name" type="text" required id="name"></label>
-            <label for="email" id="email-label"> Email<input type="email" required placeholder="Enter your Email" id="email"></label>
-            <label for="number" id="number-label"> Age (optional)<input type="number" id="number" min="13" placeholder="Age" max="120"></label>
+            <label for="name" id="name-label"> Name<input placeholder=" Enter your name" type="text" required id="name"></label>
+            <label for="email" id="email-label"> Email<input type="email" required placeholder=" Enter your Email" id="email"></label>
+            <label for="number" id="number-label"> Age (optional)<input type="number" id="number" min="13" placeholder=" Age" max="120"></label>
             <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
             <select id="dropdown">
-                <option value="0" disabled >Select current role</option>
+                <option value="0" disabled selected hidden>Select current role</option>
                 <option value="Student">Student</option>
                 <option value="Full time job">Full Time Job</option>
                 <option value="Full time Learner">Full Time Learner</option>
@@ -33,7 +33,7 @@
                 <label for="Back-end"><input type="checkbox" value="2" id="Back-end"> Back-end Projects</label>
                 <label for="Data-visualization"><input type="checkbox" value="3" id="Data-visualization"> Data Visualization</label>
             </fieldset>
-            <label for="comments">Any comments or suggestions?</label><textarea name="comments" id="comments" cols="50" rows="10" placeholder="Enter your comment here..."></textarea>
+            <label for="comments">Any comments or suggestions?</label><textarea name="comments" id="comments" cols="50" rows="10" placeholder=" Enter your comment here..."></textarea>
             <button id="submit">Submit</button>
 
         </form>
